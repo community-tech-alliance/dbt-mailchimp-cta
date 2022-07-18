@@ -27,20 +27,19 @@ quoting:
 models:
   airbyte_utils:
     +materialized: table
-    generated:
-      airbyte_ctes:
-        +tags: airbyte_internal_cte
-        +materialized: ephemeral
-      airbyte_incremental:
-        +tags: incremental_tables
-        +materialized: incremental
-        +on_schema_change: sync_all_columns
-      airbyte_tables:
-        +tags: normalized_tables
-        +materialized: table
-      airbyte_views:
-        +tags: airbyte_internal_views
-        +materialized: view
+    0_ctes:
+      +tags: 0_ctes
+      materialized: ephemeral
+    1_airbyte_incremental:
+      +tags: incremental_tables
+      +materialized: incremental
+      +on_schema_change: sync_all_columns
+    2_airbyte_tables:
+      +tags: normalized_tables
+      +materialized: table
+    2_airbyte_views:
+      +tags: airbyte_internal_views
+      +materialized: view
 dispatch:
 - macro_namespace: dbt_utils
   search_order:
