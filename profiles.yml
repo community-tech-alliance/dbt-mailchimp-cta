@@ -5,13 +5,16 @@ config:
   use_colors: true
 normalize:
   outputs:
+
+    dev-cta:
+        dataset: actblue_test
+        location: US
+        method: oauth
+        priority: interactive
+        project: dev3869c056
+        retries: 3
+        threads: 8
+        type: bigquery
+
     prod:
-      dataset: actblue_test
-      location: US
-      method: oauth
-      priority: interactive
-      project: dev3869c056
-      retries: 3
-      threads: 8
-      type: bigquery
   target: prod
