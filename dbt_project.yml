@@ -24,6 +24,7 @@ quoting:
   database: true
   schema: false
   identifier: true
+
 models:
   airbyte_utils:
     +materialized: table
@@ -31,11 +32,12 @@ models:
       +tags: 
       - cta
       materialized: ephemeral
-    1_cta_base_tables
+    1_cta_base_tables:
       +tags: 
       - cta
       +materialized: table
       +on_schema_change: sync_all_columns
+
 dispatch:
 - macro_namespace: dbt_utils
   search_order:
