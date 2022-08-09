@@ -31,7 +31,7 @@ models:
       +tags: 
       - cta
       materialized: ephemeral
-    1_cta_base_tables
+    1_cta_base_tables:
       +tags: 
       - cta
       +materialized: table
