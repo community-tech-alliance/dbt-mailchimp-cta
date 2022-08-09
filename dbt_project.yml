@@ -14,16 +14,16 @@ seed-paths:
 - data
 macro-paths:
 - macros
-target-path: ../build
-log-path: ../logs
-packages-install-path: /dbt
-clean-targets:
-- build
-- dbt_modules
+
+target-path: "../build"  # directory which will store compiled SQL files
+log-path: "../logs"  # directory which will store DBT logs
+packages-install-path: "../dbt-packages"
+
 quoting:
   database: true
   schema: false
   identifier: true
+
 models:
   airbyte_utils:
     +materialized: table
@@ -36,6 +36,7 @@ models:
       - cta
       +materialized: table
       +on_schema_change: sync_all_columns
+
 dispatch:
 - macro_namespace: dbt_utils
   search_order:
