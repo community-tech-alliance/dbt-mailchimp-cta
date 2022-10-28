@@ -45,15 +45,15 @@ dispatch:
 vars:
   json_column: _airbyte_data
   models_to_source:
-    managed_form_contributions_stream_ab1: actblue_test._airbyte_raw_managed_form_contributions_stream
-    managed_form_contributions_stream_ab2: actblue_test._airbyte_raw_managed_form_contributions_stream
-    managed_form_contributions_stream_ab3: actblue_test._airbyte_raw_managed_form_contributions_stream
-    managed_form_contributions_stream: actblue_test._airbyte_raw_managed_form_contributions_stream
-    paid_contributions_stream_ab1: actblue_test._airbyte_raw_paid_contributions_stream
-    paid_contributions_stream_ab2: actblue_test._airbyte_raw_paid_contributions_stream
-    paid_contributions_stream_ab3: actblue_test._airbyte_raw_paid_contributions_stream
-    paid_contributions_stream: actblue_test._airbyte_raw_paid_contributions_stream
-    refunded_contributions_stream_ab1: actblue_test._airbyte_raw_refunded_contributions_stream
-    refunded_contributions_stream_ab2: actblue_test._airbyte_raw_refunded_contributions_stream
-    refunded_contributions_stream_ab3: actblue_test._airbyte_raw_refunded_contributions_stream
-    refunded_contributions_stream: actblue_test._airbyte_raw_refunded_contributions_stream
+    managed_form_contributions_stream_ab1: mailchimp._airbyte_raw_managed_form_contributions_stream
+    managed_form_contributions_stream_ab2: mailchimp._airbyte_raw_managed_form_contributions_stream
+    managed_form_contributions_stream_ab3: mailchimp._airbyte_raw_managed_form_contributions_stream
+    managed_form_contributions_stream: mailchimp._airbyte_raw_managed_form_contributions_stream
+    paid_contributions_stream_ab1: mailchimp._airbyte_raw_paid_contributions_stream
+    paid_contributions_stream_ab2: mailchimp._airbyte_raw_paid_contributions_stream
+    paid_contributions_stream_ab3: mailchimp._airbyte_raw_paid_contributions_stream
+    paid_contributions_stream: mailchimp._airbyte_raw_paid_contributions_stream
+    refunded_contributions_stream_ab1: mailchimp._airbyte_raw_refunded_contributions_stream
+    refunded_contributions_stream_ab2: mailchimp._airbyte_raw_refunded_contributions_stream
+    refunded_contributions_stream_ab3: mailchimp._airbyte_raw_refunded_contributions_stream
+    refunded_contributions_stream: mailchimp._airbyte_raw_refunded_contributions_stream

@@ -1,1 +1,1 @@
-{"dataset_id":"actblue_test","project_id":"dev3869c056","loading_method":{"method":"Standard"},"dataset_location":"US","transformation_priority":"interactive","big_query_client_buffer_size_mb":15}
+{"dataset_id":"mailchimp","project_id":"dev3869c056","loading_method":{"method":"Standard"},"dataset_location":"US","transformation_priority":"interactive","big_query_client_buffer_size_mb":15}

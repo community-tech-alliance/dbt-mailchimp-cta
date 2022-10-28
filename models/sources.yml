@@ -1,6 +1,6 @@
 version: 2
 sources:
-- name: actblue_test
+- name: mailchimp
   quoting:
     database: true
     schema: false
