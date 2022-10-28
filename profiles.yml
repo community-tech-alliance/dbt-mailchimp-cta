@@ -5,9 +5,8 @@ config:
   use_colors: true
 normalize:
   outputs:
-
     dev-cta:
-        dataset: actblue_test
+        dataset: mailchimp
         location: US
         method: oauth
         priority: interactive
@@ -15,6 +14,3 @@ normalize:
         retries: 3
         threads: 8
         type: bigquery
-
-    prod:
-  target: prod
