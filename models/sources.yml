@@ -6,6 +6,6 @@ sources:
     schema: false
     identifier: false
   tables:
-  - name: _airbyte_raw_managed_form_contributions_stream
-  - name: _airbyte_raw_paid_contributions_stream
-  - name: _airbyte_raw_refunded_contributions_stream
+  - name: _airbyte_raw_campaigns
+  - name: _airbyte_raw_email_activity
+  - name: _airbyte_raw_lists
